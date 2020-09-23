@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main(void) {
+  
+  int operacao;
+  printf("Informe a operacao desejada:");
+  scanf("%i", &operacao);
+if(operacao == 1){printf("SOMA!\n");
+}
+if(operacao == 2){printf("SUBTRACAO!\n");
+} else 
+{printf("Operacao Invalida!\n");
+}return 0;
+}
